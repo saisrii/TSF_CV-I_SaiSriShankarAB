@@ -44,15 +44,5 @@ img = cv2.erode(gray, kernel, iterations=1)
 
 # Using the pytesseract to extract the text
 
-out_below = pytesseract.image_to_string(img)
-print(out_below)
-
-
-
-
-
-
-
-
-
-
+TheTxt = pytesseract.image_to_string(img)
+print(TheTxt)
